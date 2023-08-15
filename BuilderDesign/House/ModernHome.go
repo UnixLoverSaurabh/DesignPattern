@@ -1,7 +1,7 @@
 package House
 
 type modernHome struct {
-	gate, window int
+	Home
 }
 
 func (mh *modernHome) SetNumOfWindow() {

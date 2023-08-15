@@ -1,7 +1,7 @@
 package House
 
 type simpleHome struct {
-	gate, window int
+	Home
 }
 
 func (sh *simpleHome) SetNumOfWindow() {
