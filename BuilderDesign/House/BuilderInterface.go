@@ -1,8 +1,9 @@
 package House
 
 type IBuilder interface {
-	setNumOfWindow(window int)
-	setNumOfGate(gate int)
+	SetNumOfWindow()
+	SetNumOfGate()
+	GetHome() *Home
 }
 
 func GetBuilder(build string) IBuilder {

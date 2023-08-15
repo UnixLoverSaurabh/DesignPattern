@@ -1,5 +1,5 @@
 package House
 
-type home struct {
+type Home struct {
 	gate, window int
 }

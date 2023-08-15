@@ -4,22 +4,20 @@ type modernHome struct {
 	gate, window int
 }
 
-func (mh *modernHome) setNumOfWindow(window int) {
-	//TODO implement me
-	panic("implement me")
+func (mh *modernHome) SetNumOfWindow() {
+	mh.window = 4
 }
 
-func (mh *modernHome) setNumOfGate(gate int) {
-	//TODO implement me
-	panic("implement me")
+func (mh *modernHome) SetNumOfGate() {
+	mh.gate = 4
 }
 
 func newModernHome() *modernHome {
 	return &modernHome{}
 }
 
-func (sh *modernHome) getHome() *home {
-	return &home{
+func (sh *modernHome) GetHome() *Home {
+	return &Home{
 		gate:   sh.gate,
 		window: sh.window,
 	}
